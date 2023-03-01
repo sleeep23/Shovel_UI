@@ -10,10 +10,10 @@ function Tabs() {
         <div>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" className="text-3xl">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/about" className="text-3xl">About</Link>
                 </li>
             </ul>
             <Routes>
